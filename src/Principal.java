@@ -1,6 +1,7 @@
+import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Digite a quantia (múltiplo de 10): ");
         int quantia = scanner.nextInt();
         int notas50 = quantia / 50;
